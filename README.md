@@ -2,7 +2,6 @@
 
 An interactive Halloween website. Light real-feeling candles, meet a watching owl, draw a sigil that fractals into a portal, knock on a door and see what answers. It is one self-contained HTML file with no build step and no dependencies to install.
 
-**Live page:** https://claude.ai/artifact/W7V3AKB9vs56im4e4hjLys (private until shared from the page's Share menu)
 
 ## What is on the page
 
