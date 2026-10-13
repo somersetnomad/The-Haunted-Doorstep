@@ -2,6 +2,7 @@
 
 An interactive Halloween website. Light real-feeling candles, meet a watching owl, draw a sigil that fractals into a portal, knock on a door and see what answers. It is one self-contained HTML file with no build step and no dependencies to install.
 
+**Live page:** https://claude.ai/artifact/W7V3AKB9vs56im4e4hjLys (private until shared from the page's Share menu)
 
 ## What is on the page
 
@@ -12,9 +13,11 @@ An interactive Halloween website. Light real-feeling candles, meet a watching ow
 | **The coven** | Five witch scenes. Tap one and the coven casts: a sigil draws itself, fractals outward and opens a portal. Draw your own sigil on the pad and save it as a picture. |
 | **Ravens** | Red-eyed ravens fly across the page. Click them as they pass. |
 | **The apple oracle** | Tap an apple to cut it across the middle, then touch the star inside to cast a spell. Ask the oracle for a fortune. |
+| **The cauldron is bubbling** | A looping film of a witch and her cauldron, with a promotion for The Bird Experience with The Owl by PR Falconry (prfalconry.co.uk). |
 | **Wax works** | Five candles that burn down, pool and drip. Bring the cursor near and a flame leans away. Light all five for a séance. |
 | **The pumpkin patch and carving table** | Six pumpkin varieties, each with its own story. Choose a pumpkin, eyes and mouth, then light the candle inside. |
 | **Inside a spider's web** | A real orb-weaver photo with five numbered hotspots to inspect. |
+| **Where the words come from** | A step-by-step trace of how Halloween got its name, plus ten spooky words (Samhain, hallow, witch, ghost, spider, pumpkin, cauldron, candle, skeleton, nightmare) to follow back through time. |
 | **Spooky facts** | Six cards that flip and glow. |
 | **The skeleton crew** | Nine photos, each hiding a myth-or-truth Halloween fact. |
 | **Knock knock** | A wooden door that swings open on a different treat or trick every time. |
@@ -22,7 +25,7 @@ An interactive Halloween website. Light real-feeling candles, meet a watching ow
 
 ## Keeps you coming back
 
-- **Collection:** 19 achievements, each with a hint, in a drawer opened from the 📖 button in the top bar. Progress is saved in your browser.
+- **Collection:** 21 glowing badges. Tap any badge, on the page or in the 📖 drawer, to see what it means, how to earn it and your progress. Progress is saved in your browser.
 - **Streak and omen:** a visit streak counter and a different omen each day.
 - **Midnight mode:** reaching 10 finds unlocks a moonlit blue version of the whole page.
 - **Save my sigil:** renders the sigil you drew as a shareable poster image.
@@ -36,7 +39,7 @@ An interactive Halloween website. Light real-feeling candles, meet a watching ow
 
 ## Technical notes
 
-- A single `haunted-doorstep.html` file, around 3 MB. Photos are embedded as WebP; the owl film is embedded as MP4 and decoded to a blob URL in the browser.
+- A single `haunted-doorstep.html` file, around 4 MB. Photos are embedded as WebP; the owl film is embedded as MP4 and decoded to a blob URL in the browser.
 - Plain HTML, CSS and JavaScript. Canvas 2D draws the sigils and portal; SVG draws the spiders, ravens, pumpkins and treats; the Web Audio API synthesises every sound, so there are no audio files.
 - Fonts are Fraunces and Lora from Google Fonts. Without a connection the page falls back to Georgia.
 - State saved in `localStorage`: `hd_score`, `hd_got`, `hd_mid`, `hd_last`, `hd_streak`. Clear site data to reset everything.
@@ -49,6 +52,10 @@ Open the file in any text editor. The page is organised in this order: styles (w
 ## Credits
 
 **Photography (Pexels):** skeleton crew, Charles Parker. Orb-weaver spider, Ankit Rainloure. Cobweb window, Karola G. Candles, jahratreza. Pumpkins, kubiko. Witches and orchard scenes, viktoriyadr. Black-and-white bird, lebele. Bird portrait, Matt Richmond. The owl film and the photo of hands holding apples were supplied by the site owner.
+
+**Word origins:** Online Etymology Dictionary (etymonline.com).
+
+**Promoted:** The Bird Experience with The Owl, PR Falconry.
 
 **Fonts:** Fraunces and Lora (Google Fonts).
 
